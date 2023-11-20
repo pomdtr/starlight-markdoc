@@ -6,9 +6,9 @@ import markdoc from "@astrojs/markdoc";
 // https://astro.build/config
 export default defineConfig({
   integrations: [starlight({
-    title: 'Sunbeam',
+    title: 'My Docs',
     social: {
-      github: 'https://github.com/pomdtr/sunbeam',
+      github: 'https://github.com/pomdtr/starlight-markdoc',
     },
     sidebar: [{
       label: 'Guides',
